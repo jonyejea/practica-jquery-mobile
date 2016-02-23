@@ -3,12 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
 
 <!-- Div que contiene el contenido del proyecto-->
       <div id="ContenidoProyecto" data-role="collapsible" data-theme="b" data-content-theme="b">
-        <h2 class="ui-bar ui-bar-a ui-corner-all">Contenido del proyecto</h3>
+        <h2 class="ui-bar ui-bar-a ui-corner-all">Contenido del proyecto</h2>
       
           <div id="Planteamiento" data-role="collapsible" data-theme="b" data-content-theme="b">
 
@@ -78,34 +78,192 @@
                           <a href="#" data-value="4" class="pun metodologia" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
                           <a href="#" data-value="5" class="pun metodologia" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
                     </div>
-                    Claridad
-                        <div data-role="controlgroup" data-type="horizontal" data-mini="true">
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">1</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">2</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">3</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">4</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">5</a>
-                        </div>
-                    Actividades 
-                        <div data-role="controlgroup" data-type="horizontal" data-mini="true">
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">1</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">2</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">3</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">4</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">5</a>
-                        </div>
+                    <div>
+                        <label>Claridad</label>
+                         <a href="#" data-value="1" class="pun Claridad" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun Claridad" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun Claridad" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun Claridad" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun Claridad" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
+                    <div>
+                        <label>Actividades</label>
+                         <a href="#" data-value="1" class="pun Actividades" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun Actividades" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun Actividades" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun Actividades" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun Actividades" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
 
-                      Documentación elaborada
-                        <div data-role="controlgroup" data-type="horizontal" data-mini="true">
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">1</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">2</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">3</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">4</a>
-                            <a href="#" class="ui-btn ui-icon-heart ui-btn-icon-notext ui-corner-all">5</a>
-                        </div>
+                    <div>
+                        <label>Documentación elaborada</label>
+                         <a href="#" data-value="1" class="pun documentacion" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun documentacion" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun documentacion" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun documentacion" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun documentacion" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
+          </div>
+          <div id="Contenido" data-role="collapsible" data-theme="b" data-content-theme="b">
+
+              <h3 class="ui-bar ui-bar-a ui-corner-all">Resultados obtenidos</h3>
+
+                  
+                  <div>
+                        <label>Conclusiones</label>
+                         <a href="#" data-value="1" class="pun Conclusiones" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun Conclusiones" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun Conclusiones" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun Conclusiones" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun Conclusiones" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
+                    <div>
+                        <label>Objetivos conseguidos</label>
+                         <a href="#" data-value="1" class="pun ObjetivosConseguidos" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun ObjetivosConseguidos" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun ObjetivosConseguidos" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun ObjetivosConseguidos" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun ObjetivosConseguidos" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
+                    <div>
+                        <label>Grado de consecución</label>
+                         <a href="#" data-value="1" class="pun Grado" title="1 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                         <a href="#" data-value="2" class="pun Grado" title="2 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="3" class="pun Grado" title="3 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="4" class="pun Grado" title="4 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                          <a href="#" data-value="5" class="pun Grado" title="5 puntos"><i class="fa fa-heart-o fa-2x"></i></a>
+                    </div>
+
+                    
           </div>
     </div>
     </div>
+        <div id="ContenidoProyecto" data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h2 class="ui-bar ui-bar-a ui-corner-all">Calidad de la presentacion </h2>
+            <div>
+                <label>Presentación escrita</label>
+                <input id="PresentacionEscrita" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            <div>
+                <label>Redacción y claridad del texto</label>
+                <input id="Redaccion" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            <div>
+                <label>Organización del contenido</label>
+                <input id="Organizacion" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+        </div>
+        <div id="ContenidoProyecto" data-role="collapsible" data-theme="b" data-content-theme="b">
+            <h2 class="ui-bar ui-bar-a ui-corner-all">Expresion oral</h2>
+            <div>
+                        <label>Entrada del alumno</label>
+                         <a href="#" data-value="1" class="pun Entrada" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Entrada" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div>
+                        <label>Indumentaria</label>
+                         <a href="#" data-value="1" class="pun Indumentaria" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Indumentaria" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div>
+                        <label>Introducción</label>
+                         <a href="#" data-value="1" class="pun Introduccion" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Introduccion" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div>
+                        <label>Desarrollo</label>
+                        <input id="Desarrollo" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            <div>
+                        <label>Conclusión</label>
+                         <a href="#" data-value="1" class="pun Conclusion" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Conclusion" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div>
+                        <label>Seguridad en lo que expone</label>
+                         <a href="#" data-value="1" class="pun Seguridad" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Seguridad" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div>
+                        <label>Entusiasmo</label>
+                         <a href="#" data-value="1" class="pun Entusiasmo" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Entusiasmo" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+            </div>
+            <div id="ContenidoProyecto" data-role="collapsible" data-theme="b" data-content-theme="b">
+                <h3 class="ui-bar ui-bar-a ui-corner-all">Expresion oral</h3>
+                <div>
+                        <label>Entonación</label>
+                         <a href="#" data-value="1" class="pun Entonacion" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Entonacion" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Volumen</label>
+                         <a href="#" data-value="1" class="pun Volumen" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Volumen" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Velocidad</label>
+                         <a href="#" data-value="1" class="pun Velocidad" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Velocidad" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Vacilación en la voz</label>
+                         <a href="#" data-value="1" class="pun Vacilacion" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Vacilacion" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Pausas</label>
+                         <a href="#" data-value="1" class="pun Pausas" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Pausas" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Utilización de muletillas</label>
+                         <a href="#" data-value="1" class="pun muletillas" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun muletillas" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+            </div>
+            <div>
+                        <label>Duración</label>
+                        <input id="Duracion" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            <div id="ContenidoProyecto" data-role="collapsible" data-theme="b" data-content-theme="b">
+                <h3 class="ui-bar ui-bar-a ui-corner-all">Lenguaje no verbal</h3>
+                <div>
+                        <label>Mirada</label>
+                         <a href="#" data-value="1" class="pun Mirada" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Mirada" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Sonrisa/expresión facial positiva</label>
+                         <a href="#" data-value="1" class="pun Sonrisa" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Sonrisa" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Posición correcta del cuerpo</label>
+                         <a href="#" data-value="1" class="pun Posicion" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Posicion" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                <div>
+                        <label>Tics</label>
+                         <a href="#" data-value="1" class="pun Tics" title="Mal"><i class="fa fa-thumbs-o-down fa-2x"></i></a>
+                         <a href="#" data-value="5" class="pun Tics" title="Bien"><i class="fa fa-thumbs-o-up fa-2x"></i></a>
+                </div>
+                
+            </div>
+            <div>
+                        <label>Atención del público</label>
+                        <input id="Atencion" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            <div>
+                        <label>Preguntas realizadas</label>
+                        <input id="Atencion" name="slider-12" id="slider-12" min="1" max="5" value="3" type="range">
+            </div>
+            
+        </div>
+        <div class="center-wrapper">
+            <a href="#" class="ui-btn ui-btn-inline ui-icon-power ui-btn-icon-left">Puntuar</a>
+            <a href="seleccion.html" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left">Cancelar</a>
+        </div>
     </form>
   </div>
 <!-- Hasta aqui Div que contiene el contenido del proyecto-->
